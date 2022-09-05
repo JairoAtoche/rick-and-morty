@@ -1,17 +1,17 @@
 const Header = () => {
   const view = /*html*/`
-    <header class="header">
-      <div class="header__logo">
+    <div class="Header-main">
+      <div class="Header-logo">
         <h1>
-          <a href="/">
+          <a href="#/">
             Rick & Morty
           </a>
         </h1>
       </div>
-      <nav class="header__nav">
+      <div class="Header-nav">
         <a href="#/about/">About</a>
-      </nav>
-    </header>
+      </div>
+    </div>
   `;
   return view;
 }
